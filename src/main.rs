@@ -1,4 +1,5 @@
 mod lexe;
+mod parse;
 
 fn main() {
     println!("Enter expression:"); 
@@ -9,5 +10,9 @@ fn main() {
         .read_line(&mut input)
         .expect("failed to read line");
 
-    println!("Token: {:?}", lexe::lexer(&mut input));
+    let mut result: i32 = 0;
+
+    result = parse::eval(&parse::parse(&lexe::lexer(&mut input)));
+
+    println!("Resultado {result}");
 }
