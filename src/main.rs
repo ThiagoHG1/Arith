@@ -11,5 +11,5 @@ fn main() {
         .expect("failed to read line");
     
         println!("Resultado {}", parse::eval(&parse::parse(&lexe::lexer(&mut input)))
-);
+    );
 }

@@ -34,7 +34,10 @@ Começando pelo que está dentro dos parênteses com **parse_factor**, seguindo 
 Clone o repositorio com o comando:
 `git clone https://github.com/ThiagoHG1/Arith.git`
 
-use `cargo run` para executar
-isso fara ele rodar o projeto e pedir uma expressão, basta digitar. ele automaticamente ignora espaços, letras ou quaisquer coisa que não seja expressões e numeros validos.
+- use `cd Arith` para abrir a pasta;
 
-use `cargo build --release` pra gerar um executavel otimizado.
+- use `chmod -x script/install.sh` para permitir executar o instalador
+
+- rode o instalador com `./script/install.sh` (talvez precise de sudo). Isso vai instalar o programa com nome Arith.
+
+Em qualquer lugar do terminal, rode o comando `Arith` - isso fara ele rodar o projeto e pedir uma expressão, basta digitar. ele automaticamente ignora espaços, letras ou quaisquer coisa que não seja expressões e numeros validos.
