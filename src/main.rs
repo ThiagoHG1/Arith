@@ -9,10 +9,7 @@ fn main() {
     std::io::stdin()
         .read_line(&mut input)
         .expect("failed to read line");
-
-    let mut result: i32 = 0;
-
-    result = parse::eval(&parse::parse(&lexe::lexer(&mut input)));
-
-    println!("Resultado {result}");
+    
+        println!("Resultado {}", parse::eval(&parse::parse(&lexe::lexer(&mut input)))
+);
 }
