@@ -7,7 +7,7 @@ O projeto usa conceitos como parse, lexer e abstract syntax tree — servindo pr
 ---
 
 ## [Funcionamento]
-Funciona com expressões de multiplicação, divisão, subtração, resto e adição — funcionando tambem com calculos contendo numeros negativos e positivos
+Funciona com expressões de multiplicação, divisão, subtração, resto e adição — funcionando tambem com calculos contendo numeros negativos e positivos (obs: não funciona com decimais)
 **exemplos:**
 - +(4--6) = 10
 - -(10 + 5) * -2 = 30
